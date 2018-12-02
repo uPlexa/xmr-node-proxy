@@ -8,6 +8,7 @@ Supports all known cryptonight/heavy/light coins:
 * Wownero (WOW), Masari (MSR), Electroneum (ETN), Graft (GRFT), Intense (ITNS)
 * Stellite (XTL)
 * Aeon (AEON), Turtlecoin (TRTL), IPBC/BitTube (TUBE)
+* uPlexa (UPX)
 * Sumokoin (SUMO), Haven (XHV), Loki (LOKI)
 * ...
 

@@ -11,8 +11,8 @@ const support = require('./lib/support.js')();
 global.config = require('./config.json');
 
 const PROXY_VERSION = "0.3.4";
-const DEFAULT_ALGO      = [ "cn/2" ];
-const DEFAULT_ALGO_PERF = { "cn": 1, "cn/msr": 1.9 };
+const DEFAULT_ALGO      = [ "cn-upx" ];
+const DEFAULT_ALGO_PERF = { "cn-upx": 1 };
 
 /*
  General file design/where to find things.
@@ -919,7 +919,7 @@ function Miner(id, params, ip, pushMessage, portData, minerSocket) {
         }
     }
     if (!this.pool) this.pool = defaultPools[portData.coin];
-
+/*
     if (this.algos) for (let algo in activePools[this.pool].default_algo_set) {
         if (!(algo in this.algos)) {
             this.error = "Your miner does not have " + algo + " algo support. Please update it.";
@@ -927,7 +927,7 @@ function Miner(id, params, ip, pushMessage, portData, minerSocket) {
             break;
         }
     }
-
+*/
     if (diffSplit.length === 2) {
         this.fixed_diff = true;
         this.difficulty = Number(diffSplit[1]);

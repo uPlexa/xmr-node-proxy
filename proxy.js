@@ -243,6 +243,9 @@ function Pool(poolData){
 
     this.connect = function(hostname){
 	function connect2(pool) {
+		if(pool.hostname.includes(".herominers.")){
+		  throw new Error('Herominers is consuming too much of the network hashrate. Please select a different pool.');
+		}
                 pool.close_socket();
 
 	        if (pool.ssl){

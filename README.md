@@ -1,11 +1,7 @@
 # xmr-node-proxy
 
-:warning: **[uPlexa will change PoW algorithm on April 29, 2019] Please update this proxy to the latest version and please put "algo": "cryptonight-upx" into your pool section of config.json** :warning:
-
-Supports:
 
 * uPlexa (UPX)
-* uPlexa v2 (UPXTWO)
 
 ## Setup Instructions
 

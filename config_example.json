@@ -1,12 +1,12 @@
 {
   "pools": [
     {
-      "hostname": "gulf.moneroocean.stream",
-      "port": 10032,
+      "hostname": "upxpool.com",
+      "port": 7777,
       "ssl": false,
       "allowSelfSignedSSL": false,
-      "share": 100,
-      "username": "44qJYxdbuqSKarYnDSXB6KLbsH4yR65vpJe3ELLDii9i4ZgKpgQXZYR4AMJxBJbfbKZGWUxZU42QyZSsP4AyZZMbJBCrWr1",
+      "share": 50,
+      "username": "YOUR_UPX_ADDRESS",
       "password": "proxy",
       "keepAlive": true,
       "algo": "cn/2",
@@ -14,12 +14,12 @@
       "default": true
     },
     {
-      "hostname": "pool.supportxmr.com",
-      "port": 7777,
+      "hostname": "loudmining.com",
+      "port": 2003,
       "ssl": false,
       "allowSelfSignedSSL": false,
-      "share": 0,
-      "username": "44qJYxdbuqSKarYnDSXB6KLbsH4yR65vpJe3ELLDii9i4ZgKpgQXZYR4AMJxBJbfbKZGWUxZU42QyZSsP4AyZZMbJBCrWr1",
+      "share": 50,
+      "username": "YOUR_UPX_ADDRESS",
       "password": "proxy",
       "keepAlive": true,
       "algo": "cn/2",
